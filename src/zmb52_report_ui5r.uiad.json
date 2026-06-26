@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Level Wise Stock Report"
+  },
+  "ui5AppDetails": {
+    "appId": "zmb52report"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_30E2B524EFAECFB24ACE0B9B8BDEBFAA3D0FC3DA_TM",
+    "semanticObject": "ZMB52_REPORT_3",
+    "action": "ReportDisplay",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_30E2B524EFAECFB24ACE0B9B8BDEBFAA3D0FC3DA_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Level Wise Stock Report",
+        "subtitle": "ZMB52"
+      }
+    }
+  ]
+}

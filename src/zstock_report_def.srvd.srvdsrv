@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZSTOCK_REPORT_DEF'
+define service ZSTOCK_REPORT_DEF {
+  expose ZMB_52_FINAL_CDS as stock_report;
+}
